@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">E Library UCOZ</string>
+    <string name="Entrprnr"> <a href="https://drive.google.com/file/d/1bQfLFoBgYE-nqvzkBNzc4SN2MEQffWQS/view?usp=sharing">Entrepreneurship</a></string>
+    <string name="graph_theory"> <a href="https://drive.google.com/file/d/12y_iSGfrkaIMaewKEsKL68RSTKxBtT-q/view?usp=sharing">Graph Theory</a></string>
+    <string name="dda"> <a href="https://drive.google.com/file/d/12leeiym9w_rAS1Nv4vGAxnfhC0RPcH9-/view?usp=sharing">D D Analysis</a></string>
+    <string name="androdvlpmnt"><a href="https://drive.google.com/file/d/1IH9I17Sa1Vw7-WmjfOd6ai0uXYg9ylll/view?usp=sharing">Android Development</a></string>
+    <string name="vcshrp"> <a href="https://drive.google.com/file/d/1xU4x0h8NmMl4T_pjumE_JCXru6C5SjfV/view?usp=sharing">Visual C#</a></string>
+    <string name="mthfndmntl"> <a href="https://drive.google.com/file/d/1H_aDXYMRjFo9qOUXQv8Ui3OAO7ZI0Zok/view?usp=sharing">Math Fundamental</a></string>
+    <string name="physx"> <a href="https://drive.google.com/file/d/16CcxmoM0Rj3CZQCi9zdS2PiMcuyG6QEi/view?usp=sharing">Physics</a></string>
+    <string name="introcmptr"> <a href="https://drive.google.com/file/d/12Y7QZa_6MKTEuWlUuLMgRGMYHRya-hjI/view?usp=sharing">Intro To Computer</a></string>
+    <string name="dbms"> <a href="https://drive.google.com/file/d/10GUtWUsf5ZF1f8DNFUi9-CvU8bkh3LFf/view?usp=sharing">DataBase Systems</a></string>
+    <string name="psyclgy"> <a href="https://drive.google.com/file/d/19a1Ww_9B-tSArreCy6-CmPsPen4JiBNI/view?usp=sharing">Psychology</a></string>
+    <string name="os"> <a href="https://drive.google.com/file/d/1zjRuoxY4vTSQ8s8HybCygkoWUMQ1_DsK/view?usp=sharing">Operating Systems</a></string>
+    <string name="stats"> <a href="https://drive.google.com/file/d/14Kql9gb0NIFbPm64QaddCluQXLmpa3xS/view?usp=sharing">Probability and Statistics</a></string>
+    <string name="dld"> <a href="https://drive.google.com/file/d/1HJE2Cu90oksIz7JYxAS5KUwK07pVfZSk/view?usp=sharing">Digital Design and Logics</a></string>
+    <string name="dmth"> <a href="https://drive.google.com/file/d/13PAeLSrGkltDcTPLoeYMK7nbqk0ZyFVw/view?usp=sharing">Discreate Math</a></string>
+    <string name="oop"> <a href="https://drive.google.com/file/d/1-U--uSzf--uyH0TfiZKxBTq_nG0n_VM9/view?usp=sharing">OOP ++</a></string>
+    <string name="cmnction"> <a href="https://drive.google.com/file/d/1uGHYdni8DbZADM-peztN07SJiYsSz2Q3/view?usp=sharing">Communiction and presentation Skills</a></string>
+    <string name="prncplofmacrec"> <a href="https://drive.google.com/file/d/1umN2716sKsirrEFy6fNBM4411Bs2_4p2/view?usp=sharing">Principles Of MacroEconomics</a></string>
+    <string name="ir"> <a href="https://drive.google.com/file/d/12xY4U5bYaeu8Iy0VNrn8MjcFKAkrSa5v/view?usp=sharing">International Relations</a></string>
+    <string name="Acntig"> <a href="https://drive.google.com/file/d/10_wIZ4tGKHlKnJmmrgb0zWCSGZAH6gOd/view?usp=sharing">Accounting</a></string>
+    <string name="acdmicwrtngandrdng"> <a href="https://drive.google.com/file/d/1oB_pkaFCBKWgxELyDbpDc9YjSmeLyhmR/view?usp=sharing">Academic Writing And Reading</a></string>
+    <string name="clssrmmgmnt"> <a href="https://drive.google.com/file/d/1hhI6_WsxFD1lQe2r0nPwMgs5M4GMaMoS/view?usp=sharing">Class Room Management</a></string>
+    <string name="motois"> <a href="https://drive.google.com/file/d/1QCdnOqpU7ItrnakrCNlL65BmtUzfh-_o/view?usp=sharing">Method Of teaching Of Islamic Studies</a></string>
+    <string name="pkstdy"> <a href="https://drive.google.com/file/d/18Fbh6IFS0I1fsEMKAUjwsCPghovj-BO3/view?usp=sharing">Pakistan Studies</a></string>
+    <string name="artcrfnclgrfy"> <a href="https://drive.google.com/file/d/1pEpq7-ZjtnrDfGT5ztRyxR_05VqptOjF/view?usp=sharing">Art ,Craft and Calligraphy</a></string>
+    <string name="chlddvlpmnt"> <a href="https://drive.google.com/file/d/132AIblSjTZqkMDvjX9yqFUgfCLoc9WOi/view?usp=sharing">Child Development</a></string>
+    <string name="topkstdy"> <a href="https://drive.google.com/file/d/1wkhQ5HNKFnPd8_jSOuU0vmdwtP2BTkuJ/view?usp=sharing">Teaching of Pakistan Studies</a></string>
+    <string name="tourdu"> <a href="https://drive.google.com/file/d/15L0rwh3ivQUCuw6qwvilowi-_TlpIrmX/view?usp=sharing">Teaching of Urdu</a></string>
+    <string name="cntmrisuoedu"> <a href="https://drive.google.com/file/d/1jb88qz94qU2AKSduvtXhSO-q5WpU6cbZ/view?usp=sharing">Contemporary Trends and Issues in Education</a></string>
+    <string name="Qntitvrsrch"> <a href="https://drive.google.com/file/d/1V-lVXRIl2u1oBO8OpuId37AUrlKsNt3z/view?usp=sharing">Quantitative Research</a></string>
+    <string name="urdu1"> <a href="https://drive.google.com/file/d/1z66lD9UfHEP36M7qRt-2QZ81gaQauSi9/view?usp=sharing">Urdu1</a></string>
+    <string name="introsocio"> <a href="https://drive.google.com/file/d/1PBxQgIm7lTFtiVHHAW4tYKJc1F4cii13/view?usp=sharing">Introduction To Sociology</a></string>
+    <string name="infrlststc"> <a href="https://drive.google.com/file/d/1fqS8ToZae2uOTI0Z-_VaLxqBiJ6B7DHm/view?usp=sharing">Inferential Staics</a></string>
+    <string name="microeconanlsis"> <a href="https://drive.google.com/file/d/10xsPWNCmIp0cIMLBjKLieKvifO68k2iG/view?usp=sharing">Microeconomics Analysis</a></string>
+    <string name="intrmdtmicroecon"> <a href="https://drive.google.com/file/d/1ID5_7LYyQ1QaGQwZ6wrRvw9852BAz-5_/view?usp=sharing">Intermediate Microeconomics</a></string>
+    <string name="bsceconmtrcs"> <a href="https://drive.google.com/file/d/1qzSSgWaCGed53d64_k4KCXnOPa0gWStt/view?usp=sharing">Basic Econometrics</a></string>
+    <string name="mntrytheornplcy"> <a href="https://drive.google.com/file/d/1dAA3fX39lO_surz3UmRbzu-Dfv5iP7ml/view?usp=sharing">Monetary Theory and Policy</a></string>
+    <string name="fnnclinsnmrkts"> <a href="https://drive.google.com/file/d/1LzkevKjmFMs3u4EhIhC1kJhUHR6GRdNw/view?usp=sharing">Financial Instructions And Markets</a></string>
+    <string name="pblcfnnce"> <a href="https://drive.google.com/file/d/1q1mc-6PucIITRgt827Y9_6BtW3oDF8p6/view?usp=sharing">Public Finance</a></string>
+    <string name="pltclecnmy"> <a href="https://drive.google.com/file/d/1tNVUriTcbp8C-ivEkLuSLRL3gaCs-GNT/view?usp=sharing">Political Economy</a></string>
+    <string name="envrmntlecn"> <a href="https://drive.google.com/file/d/1LHeKKkRSvsSny-JulrSZAVCGZSCjyZA1/view?usp=sharing">Environmental Economics</a></string>
+    <string name="bscprgrmng"> <a href="https://drive.google.com/file/d/1TMwKjnEzfuHWZpWp1qfhvzfy_bLhQFMg/view?usp=sharing">Basic Programing With C++</a></string>
+    <string name="islmyt"> <a href="https://drive.google.com/file/d/1BowrRMggcGvg2dDQ68AK18yYMqjp5pRH/view?usp=sharing">Islamiat</a></string>
+    <string name="fnncialmngmnt"> <a href="https://drive.google.com/file/d/1lbSHc5TKf9-UPEYX8KM0MmvQl4Tl8UcJ/view?usp=sharing">Financial Management</a></string>
+    <string name="prncleofmngmnt"> <a href="https://drive.google.com/file/d/1nQRXHDwj48JJ7Xw8apeLZ_xSJKhpX-lz/view?usp=sharing">Principle of Management</a></string>
+    <string name="cstacnting"> <a href="https://drive.google.com/file/d/1gQd9etfaI2nYycOORUXteWif8_KhqE7l/view?usp=sharing">Cost Accounting</a></string>
+    <string name="bsnscmnction"> <a href="https://drive.google.com/file/d/1G1iuAFlT5xzRk0DZ65CSNSKajkIYIhqn/view?usp=sharing">Business Communication</a></string>
+    <string name="intrntionalbsns"> <a href="https://drive.google.com/file/d/15-EcNy4oDxf-j9Hsirfk20Ac6KDKtdaq/view?usp=sharing">International Business Management</a></string>
+    <string name="crprtfnnce"> <a href="https://drive.google.com/file/d/1Ww53TSGxuZEfvjimczzcoJiaO_BPFfE5/view?usp=sharing">Corporate Finance</a></string>
+    <string name="fnnclstatmntanlyss"> <a href="https://drive.google.com/file/d/1Ucvqa5wosZGSzyfXzjBT9CLK7SbKrNJ5/view?usp=sharing">Financial Statement Analysis</a></string>
+    <string name="mrktigmngmnt"> <a href="https://drive.google.com/file/d/19P2d8KV09IOn09qW3_YjWnXmu6GfTbIK/view?usp=sharing">Marketing Management</a></string>
+    <string name="hrm"> <a href="https://drive.google.com/file/d/1CyANDVgY48JyhdCX42tRLGs1ZM4zmvgL/view?usp=sharing">HRM</a></string>
+    <!--    <string name=""> <a href="">Graph Theory</a></string>-->
+
+
+    <!--    <string name="ecnmtrx"> <a href="https://drive.google.com/file/d/1qzSSgWaCGed53d64_k4KCXnOPa0gWStt/view?usp=sharing">Basic Econometrics</a></string>-->
+
+
+</resources>

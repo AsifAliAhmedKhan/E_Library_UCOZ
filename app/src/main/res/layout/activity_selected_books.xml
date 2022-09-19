@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selected_Books"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/islmyt1"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/islmyt"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/islmyt"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdbscprgrmng"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#B61D1D"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="@+id/card_view"
+            app:layout_constraintStart_toStartOf="@+id/card_view"
+            app:layout_constraintTop_toBottomOf="@+id/cardVie">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/bscprgrmng"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/bscprgrmng"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdmthfndmntl"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="@+id/cardVie"
+            app:layout_constraintStart_toStartOf="@+id/cardVie"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/mthfndmntl"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mthfndmntl"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdphysx"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="@+id/cardView8"
+            app:layout_constraintStart_toStartOf="@+id/cardView8"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/physx"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/physx"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdintrocmptr"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="@+id/cardView5"
+            app:layout_constraintStart_toStartOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/introcmptr"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/introcmptr"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crddmth"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#AB505A39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/dmth"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dmth"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdoop"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#B61D1D"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="@+id/card_view"
+            app:layout_constraintStart_toStartOf="@+id/card_view"
+            app:layout_constraintTop_toBottomOf="@+id/cardVie">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/oop"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/oop"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdcmnction"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="@+id/cardVie"
+            app:layout_constraintStart_toStartOf="@+id/cardVie"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/cmnction"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cmnction"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crddld"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="@+id/cardView8"
+            app:layout_constraintStart_toStartOf="@+id/cardView8"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/dld"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dld"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdgraph_theory"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="@+id/cardView5"
+            app:layout_constraintStart_toStartOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/graph_theory"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/graph_theory"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdpsyclgy"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#B61D1D"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="@+id/card_view"
+            app:layout_constraintStart_toStartOf="@+id/card_view"
+            app:layout_constraintTop_toBottomOf="@+id/cardVie">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/psyclgy"
+                android:layout_width="221dp"
+                android:layout_height="73dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/psyclgy"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdstats"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="@+id/cardVie"
+            app:layout_constraintStart_toStartOf="@+id/cardVie"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/stats"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/stats"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdos"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="@+id/cardView8"
+            app:layout_constraintStart_toStartOf="@+id/cardView8"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/os"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/os"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crddbms"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="@+id/cardView5"
+            app:layout_constraintStart_toStartOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/dbms"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dbms"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crddda"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/dda"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dda"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdEntrprnr"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/entrprnr"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Entrprnr"
+                android:textSize="28dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdvcshrp"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#AB0AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/vcshrp"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/vcshrp"
+                android:textSize="28dp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdandrodvlpmnt"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/androdvlpmnt"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/androdvlpmnt"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardpkstdy"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/pkstdy"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pkstdy"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardclssrmmgmnt"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/clssrmmgmnt"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/clssrmmgmnt"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardacdmicwrtngandrdng"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/acdmicwrtngandrdng"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/acdmicwrtngandrdng"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardmotois"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/motois"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/motois"
+                android:textSize="30dp" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcntmrisuoedu"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/cntmrisuoedu"
+                android:layout_width="241dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cntmrisuoedu"
+                android:textSize="23dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardtourdu"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#B61D1D"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardVie">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/tourdu"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/tourdu"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardchlddvlpmnt"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/chlddvlpmnt"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/chlddvlpmnt"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardartcrfnclgrfy"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/artcrfnclgrfy"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/artcrfnclgrfy"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardtopkstdy"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/topkstdy"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/topkstdy"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardQntitvrsrch"
+            android:layout_width="358dp"
+            android:layout_height="95dp"
+
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/Qntitvrsrch"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Qntitvrsrch"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardmicroeconanlsis"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/microeconanlsis"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/microeconanlsis"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardinfrlststc"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#B61D1D"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardVie">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/infrlststc"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/infrlststc"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardir"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/ir"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/ir"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAcntig"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/Acntig"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Acntig"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardintrmdtmicroecon"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/intrmdtmicroecon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/intrmdtmicroecon"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardintrosocio"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/introsocio"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/introsocio"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardprncplofmacrec"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/prncplofmacrec"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prncplofmacrec"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardpltclecnmy"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/pltclecnmy"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pltclecnmy"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardpblcfnnce"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#B61D1D"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="@+id/card_view"
+            app:layout_constraintStart_toStartOf="@+id/card_view"
+            app:layout_constraintTop_toBottomOf="@+id/cardVie">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/pblcfnnce"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pblcfnnce"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardmntrytheornplcy"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="@+id/cardVie"
+            app:layout_constraintStart_toStartOf="@+id/cardVie"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/mntrytheornplcy"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mntrytheornplcy"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbsceconmtrcs"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="@+id/cardView8"
+            app:layout_constraintStart_toStartOf="@+id/cardView8"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/bsceconmtrcs"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/bsceconmtrcs"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardfnnclinsnmrkts"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="@+id/cardView5"
+            app:layout_constraintStart_toStartOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/fnnclinsnmrkts"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/fnnclinsnmrkts"
+                android:textSize="25dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardenvrmntlecn"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/envrmntlecn"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/envrmntlecn"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardprncleofmngmnt"
+            android:layout_width="404dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="@+id/cardView8"
+            app:layout_constraintStart_toStartOf="@+id/cardView8"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/prncleofmngmnt"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prncleofmngmnt"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcstacnting"
+            android:layout_width="404dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="@+id/cardView5"
+            app:layout_constraintStart_toStartOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/cstacnting"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cstacnting"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardbsnscmnction"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#FB5ABA79"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/bsnscmnction"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/bsnscmnction"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardmrktigmngmnt"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/mrktigmngmnt"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mrktigmngmnt"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardfnncialmngmnt"
+            android:layout_width="404dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#8544CC"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView8"
+            app:layout_constraintEnd_toEndOf="@+id/cardView8"
+            app:layout_constraintStart_toStartOf="@+id/cardView8"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/fnncialmngmnt"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/fnncialmngmnt"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardfnnclstatmntanlyss"
+            android:layout_width="404dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:cardBackgroundColor="#AB5AAA39"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/fnnclstatmntanlyss"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/fnnclstatmntanlyss"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcrprtfnnce"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="@+id/cardVie"
+            app:layout_constraintStart_toStartOf="@+id/cardVie"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/crprtfnnce"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/crprtfnnce"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardhrm"
+            android:layout_width="404dp"
+            android:layout_height="95dp"        android:layout_gravity="center"
+            app:cardBackgroundColor="#358B97"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardVie"
+            app:layout_constraintEnd_toEndOf="@+id/cardVie"
+            app:layout_constraintStart_toStartOf="@+id/cardVie"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bookpng"
+
+                />
+
+            <TextView
+                android:id="@+id/hrm"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/hrm"
+                android:textSize="30dp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
